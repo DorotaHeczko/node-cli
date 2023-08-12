@@ -1,0 +1,28 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DorotaHeczko/node-cli.git"
+  },
+  "keywords": [],
+  "author": "Dorota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DorotaHeczko/node-cli/issues"
+  },
+  "homepage": "https://github.com/DorotaHeczko/node-cli#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
